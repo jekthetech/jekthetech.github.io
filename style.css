@@ -1,3 +1,11 @@
 * {
   font-family: Georgia, Helvetica, "Times New Roman";
 }
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
