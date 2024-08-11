@@ -6,6 +6,14 @@ h1 {
   text-align: center;
 }
 
+h4 {
+  text-transform: uppercase;
+}
+
+table .footer {
+  border-top: black solid 4px;
+}
+
 p {
   text-align: justify;
 }
