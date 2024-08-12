@@ -10,12 +10,21 @@
 .navmenu {
   position: relative;
   margin: 0;
+  padding: 0;
   background-color: darkgray;
   height: 40px;
 }
 
-.navmenu button {
-  border: none;
+.navmenu li {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navmenu li:hover {
+  color: darkgray;
+  background-color: white;
+  font-size: large;
 }
 
 h1 {
