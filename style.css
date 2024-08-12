@@ -1,5 +1,8 @@
 @font-face {
   font-family: 'sixtyfour';
+  src: url(../fonts/) format('woff'),
+    url(../fonts/) format('woff2'),
+    url(../fonts/) format('truetype');
 }
 
 * {
