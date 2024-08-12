@@ -15,18 +15,22 @@
   height: 80px;
 }
 
-.navmenu li {
+.navmenu li a {
   color: white;
-  font-size: 35px;
+  font-size: 75px;
   font-weight: bold;
   display: inline;
   height: 80px;
 }
 
+ul{
+  list-style-type: none;
+}
+
 .navmenu li:hover {
   color: darkgray;
   background-color: white;
-  font-size: 35px;
+  font-size: 75px;
   height: 80px;
 }
 
