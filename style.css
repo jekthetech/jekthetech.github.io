@@ -7,6 +7,15 @@
   font-family: Georgia, Helvetica, "Times New Roman";
 }
 
+.navmenu {
+  position: relative;
+  font-size: large;
+  color: white;
+  background-color: darkgray;
+  height: 400px;
+  font-weight: bold;
+}
+
 h1 {
   text-align: center;
 }
