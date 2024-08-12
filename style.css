@@ -7,27 +7,30 @@
   font-family: Georgia, Helvetica, "Times New Roman";
 }
 
-.navmenu {
+ul.navmenu {
   position: relative;
-  display: inline;
   margin: 0;
   padding: 0;
   background-color: darkgray;
-  height: 80px;
+}
+
+.navmenu li {
+  float: left;
 }
 
 .navmenu li a {
+  display: block;
   color: white;
-  font-size: 75px;
-  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
 .navmenu li:hover {
   color: darkgray;
   background-color: white;
-  font-size: 75px;
-  height: 80px;
+  font-size: 35px;
+  height: 40px;
 }
 
 h1 {
