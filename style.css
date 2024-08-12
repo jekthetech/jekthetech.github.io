@@ -9,6 +9,7 @@
 
 .navmenu {
   position: relative;
+  display: inline;
   margin: 0;
   padding: 0;
   background-color: darkgray;
@@ -19,7 +20,6 @@
   color: white;
   font-size: 75px;
   font-weight: bold;
-  display: inline;
   text-decoration: none;
 }
 
