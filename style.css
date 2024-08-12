@@ -27,8 +27,8 @@ ul.navmenu {
   text-decoration: none;
 }
 
-.navmenu li:hover {
-  color: darkgray;
+.navmenu li a:hover {
+  color: rgb(0, 0, 0);
   background-color: white;
 }
 
