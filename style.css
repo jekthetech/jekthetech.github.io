@@ -9,11 +9,13 @@
 
 .navmenu {
   position: relative;
-  font-size: large;
-  color: white;
+  margin: 0;
   background-color: darkgray;
   height: 40px;
-  font-weight: bold;
+}
+
+.navmenu button {
+  border: none;
 }
 
 h1 {
