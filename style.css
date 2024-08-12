@@ -21,6 +21,7 @@
   font-weight: bold;
   display: inline;
   height: 80px;
+  text-decoration: none;
 }
 
 .navmenu li:hover {
