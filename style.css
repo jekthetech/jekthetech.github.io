@@ -30,8 +30,6 @@ ul.navmenu {
 .navmenu li:hover {
   color: darkgray;
   background-color: white;
-  font-size: 35px;
-  height: 40px;
 }
 
 h1 {
