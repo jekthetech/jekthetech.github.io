@@ -26,7 +26,8 @@
 .navmenu li:hover {
   color: darkgray;
   background-color: white;
-  font-size: large;
+  font-size: 35px;
+  height: 80px;
 }
 
 h1 {
