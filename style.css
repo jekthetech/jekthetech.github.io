@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'sixtyfour';
-  src: url(../fonts/Sixtyfour-Regular.ttf) format('truetype');
-}
-
 * {
   font-family: Georgia, Helvetica, "Times New Roman";
   font-color: #f4f7ff;
