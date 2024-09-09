@@ -7,6 +7,10 @@
   font-family: Georgia, Helvetica, "Times New Roman";
 }
 
+body {
+  background-color: black;
+}
+
 ul.navmenu {
   list-style-type: none;
   margin: 0;
