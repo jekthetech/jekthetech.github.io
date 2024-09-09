@@ -5,11 +5,11 @@
 
 * {
   font-family: Georgia, Helvetica, "Times New Roman";
+  font-color: #f4f7ff;
 }
 
 body {
-  background-color: black;
-  font-color: white;
+  background-color: #232836;
 }
 
 ul.navmenu {
