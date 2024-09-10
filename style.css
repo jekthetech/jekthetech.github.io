@@ -1,10 +1,45 @@
 * {
-  font-family: Georgia, Helvetica, "Times New Roman";
-  font-color: #f4f7ff;
+  font-family: sans-serif, Georgia, Helvetica, "Times New Roman";
+  color: #f4f7ff;
 }
 
 body {
-  background-color: #232836;
+  background-color: #0e1833;
+}
+
+p {
+  font-size: 20px;
+  text-indent: 32px;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 65px;
+  padding-bottom: 0;
+}
+
+h4{
+  text-align: center;
+}
+
+div.landingPage {
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 5rem;
+}
+
+div.landingPageText{
+  padding-top: 0;
+  max-width: 800px;
+}
+
+.navmenu {
+  width: 100%;
 }
 
 ul.navmenu {
@@ -12,8 +47,8 @@ ul.navmenu {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: darkgray;
-  height: 40px;
+  background-color: #0e1833;
+  height: 60px;
 }
 
 .navmenu li {
@@ -23,28 +58,37 @@ ul.navmenu {
 .navmenu li a {
   display: block;
   color: white;
+  font-size: 20px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  height: 60px;
 }
 
 .navmenu li a:hover {
   color: rgb(0, 0, 0);
   background-color: white;
+  height: 60px;
+
+  transition: color .5s ease-out;
 }
 
 h1 {
   text-align: center;
+  text-transform: uppercase;
 }
 
 h4 {
   text-transform: uppercase;
 }
 
-table .footer {
-  border-top: black solid 4px;
-}
-
-p {
-  text-align: justify;
+#footer {            
+  text-align: center;
+  /*Change position to fixed to get it to stick to the bottom of the page.*/
+  position: relative;
+  padding: 5px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
 }
